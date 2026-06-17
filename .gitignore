@@ -1,0 +1,18 @@
+# Gradle
+.gradle/
+build/
+
+# IDEA
+.idea/
+*.iml
+# vscode
+.vscode/
+# Fabric
+run/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
