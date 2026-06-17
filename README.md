@@ -7,6 +7,7 @@ Removes the vanilla 4 tick delay when placing a block by holding down right clic
 ![Fast Placing](https://cdn.modrinth.com/data/cached_images/7735def5f9cc317bb4514a8289b59fe0813d1714.gif)
 ## Links
 Modrinth: https://modrinth.com/mod/bedrock-placing
+
 CurseForge: There is currently no CurseForge Page
 ## Disclaimer
 This mod may be considered cheating on some servers please read the server rules before using a mod like this. Anticheats may flag, ban or kick players for the use of this mod. I am not responsible if you get banned or kicked from a server by using this mod.
