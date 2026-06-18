@@ -3,6 +3,7 @@
   "minVersion": "0.8",
   "package": "org.bedrock.placing.bedrock_placing.mixin",
   "compatibilityLevel": "JAVA_21",
+  "refmap": "bedrock_placing.refmap.json",
   "mixins": [
   ],
   "injectors": {
@@ -12,6 +13,5 @@
     "requireAnnotations": true
   },
   "client": [
-    "PlacingMixin"
   ]
 }
