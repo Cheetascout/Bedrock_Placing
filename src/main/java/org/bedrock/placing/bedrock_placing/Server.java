@@ -15,7 +15,7 @@ public class Server implements ModInitializer {
     public void onInitialize() {
         PayloadTypeRegistry.playS2C().register(
                 Network.ID,
-               Network.CODEC
+                Network.CODEC
         );
 
         ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {

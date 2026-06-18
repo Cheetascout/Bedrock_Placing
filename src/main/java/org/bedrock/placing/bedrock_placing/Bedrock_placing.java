@@ -6,9 +6,11 @@ package org.bedrock.placing.bedrock_placing;
 
 import net.fabricmc.api.ModInitializer;
 
+
 public class Bedrock_placing implements ModInitializer {
 
     @Override
     public void onInitialize() {
+
     }
 }
