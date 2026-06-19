@@ -12,6 +12,7 @@ import net.minecraft.client.MinecraftClient;
 import net.minecraft.item.BlockItem;
 import net.minecraft.util.hit.HitResult;
 import org.bedrock.placing.bedrock_placing.Network;
+import org.bedrock.placing.bedrock_placing.client.mixin.MinecraftClientAccessor;
 
 public class Bedrock_PlacingClient implements ClientModInitializer {
 
@@ -63,7 +64,7 @@ public class Bedrock_PlacingClient implements ClientModInitializer {
         if (useHeld && aimingAtBlock && holdingBlock) {
             holdTicks++;
             if (holdTicks >= WAIT_TICKS) {
-                client.itemUseCooldown = 0;
+                ((MinecraftClientAccessor) client).setItemUseCooldown(0);
             }
         } else {
             holdTicks = 0;

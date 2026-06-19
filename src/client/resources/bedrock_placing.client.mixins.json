@@ -1,9 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "org.bedrock.placing.bedrock_placing.mixin.client",
+  "package": "org.bedrock.placing.bedrock_placing.client.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
+    "MinecraftClientAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
